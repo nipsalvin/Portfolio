@@ -1,16 +1,18 @@
-<!doctype html>
-<html lang="en-us">
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <meta charset="utf-8">
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
-         <!--BOX ICONS-->
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-        <title>Nips Portfolio</title>
-    
+
+        <title>Portfolio website complete</title>
     </head>
     <body>
-        <!--HEADER-->
+        <!--===== HEADER =====-->
         <header class="l-header">
             <nav class="nav bd-grid">
                 <div>
@@ -19,7 +21,7 @@
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
-                    `   <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
                         <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
                         <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
                         <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
@@ -34,7 +36,7 @@
         </header>
 
         <main class="l-main">
-            <!--Home-->
+            <!--===== HOME =====-->
             <section class="home bd-grid" id="home">
                 <div class="home__data">
                     <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Alvin</span><br> Web Designer</h1>
@@ -42,44 +44,49 @@
                     <a href="#" class="button">Contact</a>
                 </div>
 
-                 <div class="home__social">
-                    <a href="#" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="#" class="home__social-icon"><i class='bx bxl-behance'></i></a>
-                    <a href="#" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/alvin-mwaniki-0b045a1b4/" class="home__social-icon" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    <!--Add social moja below-->
+                    <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a>
+                    <a href="https://github.com/nipsalvin" class="home__social-icon"><i class='bx bxl-github' ></i></a>
                 </div>
+
                 <div class="home__img">    
-                    <img src="assets/img/cover.jpg" alt="Alvin's photo">
+                    <img src="assets/img/about.jpg" alt="Picture of Alvin">
                 </div>
             </section>
-            <!--ABOUT-->
+
+            <!--===== ABOUT =====-->
             <section class="about section " id="about">
                 <h2 class="section-title">About</h2>
 
                 <div class="about__container bd-grid">
                     <div class="about__img">
-                        <img src="assets/img/main.jpg" alt="Alvin's photo">
+                        <img src="assets/img/perfil.jpg" alt="Picture of Alvin">
                     </div>
+                    
                     <div>
                         <h2 class="about__subtitle">I'am Alvin</h2>
                         <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>           
-                    </div>
+                    </div>                                   
                 </div>
             </section>
-            <!--SKILLZZ FOR DAYS!!!!-->
+
+            <!--===== SKILLS =====-->
             <section class="skills section" id="skills">
                 <h2 class="section-title">Skills</h2>
 
-                <div class="skills__container bd-grid">
+                <div class="skills__container bd-grid">          
                     <div>
-                        <h2 class="skills__subtitle">profesional skills</h2>
+                        <h2 class="skills__subtitle">Profesional Skills</h2>
                         <p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p>
-                        
                         <div class="skills__data">
                             <div class="skills__names">
                                 <i class='bx bxl-html5 skills__icon'></i>
-                                <span class="skills__names">HTML5</span>
+                                <span class="skills__name">HTML5</span>
                             </div>
                             <div class="skills__bar skills__html">
+
                             </div>
                             <div>
                                 <span class="skills__percentage">95%</span>
@@ -94,7 +101,7 @@
                                 
                             </div>
                             <div>
-                                <span class="skills__percentage">85%</span>
+                                <span class="skills__percentage">65%</span>
                             </div>
                         </div>
                         <div class="skills__data">
@@ -106,15 +113,15 @@
                                 
                             </div>
                             <div>
-                                <span class="skills__percentage">65%</span>
+                                <span class="skills__percentage">50%</span>
                             </div>
                         </div>
                         <div class="skills__data">
                             <div class="skills__names">
-                                <i class='bx bxs-paint skills__icon'></i>
-                                <span class="skills__name">UX/UI</span>
+                                <i class='bx bxl-python skills__icon'></i>
+                                <span class="skills__name">Python</span>
                             </div>
-                            <div class="skills__bar skills__ux">
+                            <div class="skills__bar skills__python">
                                 
                             </div>
                             <div>
@@ -126,10 +133,10 @@
                     <div>              
                         <img src="assets/img/work3.jpg" alt="" class="skills__img">
                     </div>
-
                 </div>
             </section>
-            <!--WORK WORK-->
+
+            <!--===== WORK =====-->
             <section class="work section" id="work">
                 <h2 class="section-title">Work</h2>
 
@@ -154,7 +161,8 @@
                     </div>
                 </div>
             </section>
-            <!--HALLA @NIPS-->
+
+            <!--===== CONTACT =====-->
             <section class="contact section" id="contact">
                 <h2 class="section-title">Contact</h2>
 
@@ -163,13 +171,13 @@
                         <input type="text" placeholder="Name" class="contact__input">
                         <input type="mail" placeholder="Email" class="contact__input">
                         <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Send" class="contact__button button">
+                        <input type="button" value="Email" class="contact__button button">
                     </form>
                 </div>
             </section>
-
         </main>
-        <!--FOOTER-->
+
+        <!--===== FOOTER =====-->
         <footer class="footer">
             <p class="footer__title">Alvin</p>
             <div class="footer__social">
@@ -180,12 +188,11 @@
             <p>&#169; 2021 copyright all right reserved</p>
         </footer>
 
-        <!--SCROLL REVEAL-->
+
+        <!--===== SCROLL REVEAL =====-->
         <script src="https://unpkg.com/scrollreveal"></script>
 
-        <!--MAIN JS-->
+        <!--===== MAIN JS =====-->
         <script src="assets/js/main.js"></script>
-
     </body>
 </html>
-
