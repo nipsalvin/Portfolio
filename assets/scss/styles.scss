@@ -302,8 +302,11 @@ img{
         border-radius: .5rem;
         z-index: var(--z-back);
     }
+    &__python{
+        width: 85%;
+    }
     &__html{
-        width: 95%;
+        width: 90%;
     }
     &__css{
         width: 65%;
@@ -311,9 +314,13 @@ img{
     &__js{
         width: 50%;
     }
-    &__python{
-        width: 85%;
+    &__git{
+        width: 65%;
     }
+    &__sql{
+        width: 60%;
+    }
+    
     &__img{
         border-radius: .5rem;
     }
