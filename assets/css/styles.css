@@ -73,7 +73,7 @@ img{
   max-width: 100%;
   height: auto;
   display: block;
-  max-width: 100%;
+  /* max-width: 100%; */
   display: block;
   border-radius: 50px;
   box-shadow: 0 2px 8px
@@ -322,7 +322,7 @@ img{
   row-gap: 2rem;
 }
 .work__img{
-  box-shadow: 0 4px 25px rgba(14,36,49,.15);
+  /* box-shadow: 0 4px 25px rgba(14,36,49,.15); */
   border-radius: .5rem;
   overflow: hidden;
 }
