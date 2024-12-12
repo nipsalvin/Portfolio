@@ -300,8 +300,11 @@ img{
 .skills__html{
   width: 95%;
 }
+.skills__javascript{
+  width: 30%;
+}
 .skills__css{
-  width: 70%;
+  width: 60%;
 }
 .skills__wp{
   width: 65%;
@@ -310,7 +313,7 @@ img{
 .skills__git{
   width: 85%;
 }
-.skills__sql{
+.skills__django{
   width: 60%;
 }
 .skills__img{
