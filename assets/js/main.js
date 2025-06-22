@@ -117,3 +117,5 @@ window.addEventListener('scroll', () => {
   }
 });
 
+/*===== DYNAMIC YEAR DISPLAY =====*/
+document.getElementById('year').textContent = new Date().getFullYear();
