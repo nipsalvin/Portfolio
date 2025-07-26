@@ -1362,7 +1362,7 @@ img {
   position: relative;
   overflow: hidden;
   aspect-ratio: 16/10;
-  background: var(--gray-100);
+  /* background: var(--gray-100); */
 }
 
 .work__img img {
