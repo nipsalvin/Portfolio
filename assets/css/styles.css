@@ -1506,6 +1506,28 @@ img {
   flex-wrap: wrap;
 }
 
+/* Single button takes full width */
+.work__actions .work__btn:only-child {
+  flex: 1;
+}
+
+/* Multiple buttons share space equally */
+.work__actions .work__btn:not(:only-child) {
+  flex: 1;
+  min-width: 0;
+}
+
+/* Mobile responsive: stack buttons vertically on small screens */
+@media screen and (max-width: 480px) {
+  .work__actions {
+    flex-direction: column;
+  }
+
+  .work__actions .work__btn:not(:only-child) {
+    flex: none;
+  }
+}
+
 .work__btn--code {
   background: var(--gray-800);
   color: var(--white);
